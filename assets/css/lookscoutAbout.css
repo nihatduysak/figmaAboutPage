@@ -1,0 +1,597 @@
+a {
+    text-decoration: none;
+}
+
+/* mobile */
+
+.home {display: none;}
+.ourProducts {display: none;}
+.resources {display: none;}
+.contacts {display: none;}
+.hamburgerLogo {display: block;}
+.login {display: none;}
+.signup {display: none;}
+.blockHeaderP {display: none;}
+.updateP {display: none;}
+.updatePdiv {display: none;}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #F8F9FB;
+    border-bottom: 1px solid #EAEBF0;
+}
+
+.container {
+    padding: 32px 16px 40px;
+    background-color: #F8F9FB;
+}
+
+.container h6 {
+    color: var(--primary-600, #437EF7);
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.1px;
+    margin-bottom: 32px;
+}
+
+.container h1 {
+    color: var(--gray-700, #272D37);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: -0.72px;
+    margin-bottom: 16px;
+}
+
+.container p {
+    color: var(--gray-50, #5F6D7E);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.1px;
+}
+
+.features {
+    padding: 32px 16px;
+}
+
+.blockHeader h3 {
+    text-align: center;
+    color: var(--gray-700, #272D37);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+    margin-bottom: 32px;
+}
+
+.headerP {
+    color: var(--gray-50, #5F6D7E);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+    margin-bottom: 32px;
+}
+
+.contentItems img {
+    margin-bottom: 16px;
+}
+
+.contentItems h4 {
+    color: var(--gray-700, #272D37);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+    margin-bottom: 8px;
+}
+
+.contentP {
+    color: var(--gray-50, #5F6D7E);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+    margin-bottom: 40px;
+}
+
+.contentLM {
+    color: var(--gray-50, #5F6D7E);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+    margin-bottom: 16px;
+}
+
+.learnMoreArrow {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 40px;
+
+    color: var(--primary-600, #437EF7);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px; /* 146.667% */
+}
+
+.teamSection {
+    padding: 40px 32px;
+}
+
+.checkUs {
+    padding: 32px 16px;
+}
+
+.sectionText h3 {
+    color: var(--gray-700, #272D37);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px; /* 128.571% */
+    letter-spacing: -0.56px;
+    margin-bottom: 24px;
+}
+
+.option {
+    display: flex;
+    gap: 8px;
+}
+
+.sectionOption {
+    margin-bottom: 40px;
+}
+
+.sectionList {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.sectionList li {
+    display: flex;
+    gap: 8px;
+}
+
+.startNow {
+    margin-bottom: 32px;
+}
+
+.profileInfo h5 {
+    color: var(--gray-700, #272D37);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+    margin-top: 16px;
+}
+
+.jobTitle {
+    color: var(--gray-50, #5F6D7E);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.socialIcon {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.webTabel {
+    padding: 40px 16px;
+}
+
+.webTabelP {
+    margin-bottom: 32px;
+}
+
+.faq {
+    border: 1px solid #EAEBF0;
+    border-radius: 5px;
+}
+
+.faqQuestions {
+    display: flex;
+    padding: 20px 32px;
+    border-bottom: 1px solid #EAEBF0;
+}
+
+.faqText h5 {
+    color: var(--gray-700, #272D37);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.1px;
+}
+
+.faqText p {
+    color: var(--gray-50, #5F6D7E);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.faqIcon {
+    padding: 16px 0 16px 32px;
+}
+
+.faqQuestion {
+    padding: 16px 32px;
+    color: var(--gray-700, #272D37);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+    border-bottom: 1px solid #EAEBF0;
+}
+
+.callToAction {
+    background: var(--primary-900, #2B63D9);
+    padding: 32px 16px;
+}
+
+.c2aContainer h6 {
+    text-align: center;
+    color: var(--base-white, #FFF);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.1px;
+    margin-bottom: 8px;
+}
+
+.c2aContainer h2 {
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 128.571% */
+    letter-spacing: -0.56px;
+    margin-bottom: 16px;
+}
+
+.signBtn img {
+    margin-bottom: 16px;
+}
+
+.logoSection {
+    background: #2B63D9;
+    padding: 32px 16px;
+    margin: 0 auto;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer {
+    padding: 32px 16px;
+}
+
+.logoSections img {
+    margin-bottom: 16px;
+}
+
+.logoSections p {
+    margin-bottom: 24px;
+    color: var(--gray-50, #5F6D7E);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.footerLogos {
+    display: flex;
+    gap: 64px;
+}
+
+.verticalContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.verticalContainer h6 {
+    color: var(--gray-700, #272D37);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.products {
+    display: block;
+    justify-content: left ;
+}
+
+.products a {
+    color: var(--gray-50, #5F6D7E);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px;
+}
+
+.reservedText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.reservedText img {
+    margin-bottom: 16px;
+}
+
+/* mobile end */
+
+/* tablet */
+@media (width > 375px) {
+    
+}
+
+/* tablet end */
+
+/* masaüstü */
+@media (width > 768px) {
+    
+    .header {
+        .home {display: block;}
+        .ourProducts {display: block;}
+        .resources {display: block;}
+        .contacts {display: block;}
+        .hamburgerLogo {display: none;}
+        .login {display: block;}
+        .signup {display: block;}
+        padding: 20px 64px;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: flex;
+        gap: 32px;
+        color: var(--gray-700, #272D37);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px; /* 146.667% */
+        padding: 12px 18px;
+    }
+
+    .menu a {
+        color: var(--gray-700, #272D37);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px; /* 146.667% */
+    }
+
+    .loginSection {
+        display: flex;
+        gap: 24px;
+    }
+
+    .signup {
+        color: var(--primary-600, #437EF7);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px; /* 146.667% */
+        padding: 12px 18px;
+
+    }
+
+    .login {
+        color: var(--base-white, #FFF);
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 22px; /* 146.667% */
+        padding: 12px 18px;
+        border-radius: 6px;
+        background: var(--primary-600, #437EF7);
+    }
+
+    .container {
+        padding: 80px 30px;
+        margin: 0 auto;
+    }
+
+    .container h6, h1, p {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .container h1 {
+        margin-top: 16px;
+    }
+
+    .features {
+        padding: 64px 0;
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .blockHeader {
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .blockHeaderP {
+        display: block;
+        color: var(--gray-50, #5F6D7E);
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.1px;
+        margin-bottom: 64px;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+
+    .contentLM {
+        display: none;
+    }
+
+    .checkUs {
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 140px;
+        padding: 0 32px;
+    }
+
+    .sectionText {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .sectionOption {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-bottom: 40px;
+        justify-content: flex-start;
+    }
+
+    .teamSection {
+        padding: 64px 0;
+        margin: 0 auto;
+    }
+
+    .profile {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .webTabelP {
+        margin-bottom: 64px;
+        text-align: center;
+    }
+
+    .faqQuestions {
+        display: flex;
+        justify-content: space-between;
+    } 
+
+    .updateP {
+        display: block;
+        color: var(--gray-50, #5F6D7E);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.1px;
+    }
+
+    .faqQuestion {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .updatePdiv {
+        display: flex;
+        padding: 16px;
+        gap: 32px;
+    }
+
+    .callToAction {
+        padding: 64px 0;
+        margin: 0 auto;
+    }
+
+    .c2aBtn {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+    
+    .logos {
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .footer {
+        display: flex;
+        gap: 60px;
+        margin: 0 auto;
+        width: 1280px;
+        padding: 64px 32px;
+        margin: 0 auto;
+    }
+
+    .footerLogos {
+        gap: 24px;
+    }
+    
+    .verticalContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
+
+    .reservedText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 64px;
+    }
+
+    .reservedText img {
+        margin-bottom: 16px;
+    }
+
+}
+
+/* masaüstü end */

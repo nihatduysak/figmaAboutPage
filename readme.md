@@ -1,0 +1,1 @@
+## Figma Lookscout About Page mobile ve desktop tamamlandı
